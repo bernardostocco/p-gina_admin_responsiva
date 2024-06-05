@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Página de admin responsiva | Bernardo Whehaibe</title>
+</head>
+
+<body>
+
+    <div class="container">
+        
+        <aside>
+            <div class="toggle">
+                <div class="logo">
+                    <img src="imgs/logo.png">
+                    <h2>Bernardo<span class="danger">Whehaibe</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">
+                        Fechar
+                    </span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        
+                    </span>
+                    <h3>Painel</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        person_outline
+                    </span>
+                    <h3>Usuários</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        receipt_long
+                    </span>
+                    <h3>Histórico</h3>
+                </a>
+                <a href="#" class="active">
+                    <span class="material-icons-sharp">
+                        insights
+                    </span>
+                    <h3>Análises</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        mail_outline
+                    </span>
+                    <h3>Tickets</h3>
+                    <span class="message-count">+99</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        inventory
+                    </span>
+                    <h3>Vendas</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        report_gmailerrorred
+                    </span>
+                    <h3>Reports</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        settings
+                    </span>
+                    <h3>Configurações</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        add
+                    </span>
+                    <h3>Novo login</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        logout
+                    </span>
+                    <h3>Sair</h3>
+                </a>
+            </div>
+        </aside>
+      
+        <main>
+            <h1>Análises</h1>
+           
+            <div class="analyse">
+                <div class="sales">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Total de vendas</h3>
+                            <h1>R$89.264,18</h1>
+                        </div>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>+82,6%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="visits">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Visitas no site</h3>
+                            <h1>45.129</h1>
+                        </div>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>+36,1%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="searches">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Pesquisas</h3>
+                            <h1>63.291</h1>
+                        </div>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>+21,9%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+
+
+            <div class="new-users">
+                <h2>Novos usuários</h2>
+                <div class="user-list">
+                    <div class="user">
+                        <img src="imgs/taylor.png">
+                        <h2>Taylor</h2>
+                        <p>Um minuto atrás</p>
+                    </div>
+                    <div class="user">
+                        <img src="imgs/joão.png">
+                        <h2>João</h2>
+                        <p>54 minutos atrás</p>
+                    </div>
+                    <div class="user">
+                        <img src="imgs/maria.png">
+                        <h2>Maria</h2>
+                        <p>3 horas atrás</p>
+                    </div>
+                    <div class="user">
+                        <img src="imgs/rafael.png">
+                        <h2>Rafael</h2>
+                        <p>6 horas atrás</p>
+                    </div>
+                </div>
+            </div>
+          
+
+         
+            <div class="recent-orders">
+                <h2>Pedidos recentes</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome do curso</th>
+                            <th>Número do curso</th>
+                            <th>Pagamento</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <a href="#">Mostrar mais</a>
+            </div>
+           
+
+        </main>
+      
+
+
+        <div class="right-section">
+            <div class="nav">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">
+                        menu
+                    </span>
+                </button>
+                <div class="dark-mode">
+                    <span class="material-icons-sharp active">
+                        light_mode
+                    </span>
+                    <span class="material-icons-sharp">
+                        dark_mode
+                    </span>
+                </div>
+
+                <div class="profile">
+                    <div class="info">
+                        <p>Olá, <b>Bernardo</b></p>
+                        <small class="text-muted">Gerente</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="imgs/bernardo.png">
+                    </div>
+                </div>
+
+            </div>
+            
+
+            <div class="user-profile">
+                <div class="logo">
+                    <img src="imgs/bernardo.png">
+                    <h2>Bernardo Stocco</h2>
+                    <p>Gerente</p>
+                </div>
+            </div>
+
+            <div class="reminders">
+                <div class="header">
+                    <h2>Lembretes</h2>
+                    <span class="material-icons-sharp">
+                        notifications_none
+                    </span>
+                </div>
+
+                <div class="notification">
+                    <div class="icon">
+                        <span class="material-icons-sharp">
+                            volume_up
+                        </span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Reunião RH</h3>
+                            <small class="text_muted">
+                                08:00 - 9:00
+                            </small>
+                        </div>
+                        <span class="material-icons-sharp">
+                            more_vert
+                        </span>
+                    </div>
+                </div>
+
+                <div class="notification deactive">
+                    <div class="icon">
+                        <span class="material-icons-sharp">
+                            edit
+                        </span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Projeto A8N3</h3>
+                            <small class="text_muted">
+                                14:00 - 16:30
+                            </small>
+                        </div>
+                        <span class="material-icons-sharp">
+                            more_vert
+                        </span>
+                    </div>
+                </div>
+
+                <div class="notification add-reminder">
+                    <div>
+                        <span class="material-icons-sharp">
+                            add
+                        </span>
+                        <h3>Adicionar lembrete</h3>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="orders.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<!--Código por: Bernardo Whehaibe-->
